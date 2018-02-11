@@ -1,22 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-            body { background-color: #e5e4e2; }
-            h2 { border-width: medium; border-style: ridge; }
-            .about { color: #035096; }
-            .interests { color: #006400; }
-            .projects { color: #c21e56; }
-            .ta { color: #daa520; }
-            .funstuff { color : #551a8b; }
-        </style>
-
+        <link rel="stylesheet" href="style.css">
         <meta charset="utf-8">
         <title>Carl's Homepage</title>
     </head>
 
     <body>
-        <h2 class="about">About Me</h2>
+        <h1 id="name" >Carl Marquez</h1>
+        <h2 id="about" class="section_header">About Me</h2>
         <p>
             I am a 3rd year Computer Science student and teaching assistant at
             the University of Toronto, Mississauga campus. My interest lies in
@@ -29,7 +21,7 @@
             will look wonky, but please bear with me.
         </p>
 
-        <h2 class="interests">Hobbies and Interests</h2>
+        <h2 id="interests" class="section_header">Hobbies and Interests</h2>
         <ul>
             <li>Activities: Biking</li>
             <li>Food: Burrito, Korean BBQ, Poutine, Samosa, Sushi</li>
@@ -37,7 +29,7 @@
             <li>Video Games: GTA San Andreas, Kerbal Space Program, TIS-100</li>
         </ul>
 
-        <h2 class="projects">Projects</h2>
+        <h2 id="projects" class="section_header">Projects</h2>
         <ul>
             <li>
                 <a href="https://github.com/cmqten/crp16">CRP16</a> :
@@ -62,7 +54,7 @@
             </li>
         </ul>
 
-        <h2 class="ta">Teaching Assistant Work</h2>
+        <h2 id="ta" class="section_header">Teaching Assistant Work</h2>
         <p>
             As mentioned above, I also work as a teaching assistant on top of
             taking classes. The following are the classes for which I have
@@ -78,13 +70,6 @@
             </li>
         </ul>
 
-        <h2 class="funstuff">Fun Stuff</h2>
-        <button id="clickme">Click Me!</button>
-        <p class="out"></p>
-        
-        <!-- TODO: Javascript to be executes when button is pressed -->
-        <script>
-
-        </script>
+        <h2 id="funstuff" class="section_header">Fun Stuff</h2>
     </body>
 </html>

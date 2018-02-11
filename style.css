@@ -1,0 +1,17 @@
+body { background-color: #e5e4e2; font-family: monospace; }
+
+h2.section_header { border-width: medium; border-style: ridge; }
+
+li { list-style-type: square; }
+
+#about { color: #000080; }
+
+#funstuff { color : #551a8b; }
+
+#interests { color: #006400; }
+
+#name { color: #035096; text-align: center; }
+
+#projects { color: #c21e56; }
+
+#ta { color: #daa520; }
