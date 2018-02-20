@@ -1,0 +1,24 @@
+body { background-color: #e5e4e2; font-family: monospace; }
+li { list-style-type: square; }
+
+#name { color: #035096; }
+
+.header { border-width: medium; border-style: ridge; text-align: center; }
+#about-header { color: #000080; }
+#funstuff-header { color: #551a8b; }
+#interests-header { color: #006400; }
+#projects-header { color: #c21e56; }
+#ta-header { color: #daa520; }
+
+.section p, .section ul { margin: 2%; }
+.centered-content { text-align: center; }
+
+/* Mobile devices */
+@media only screen and (max-width: 600px) {
+    .section { left: 0%; position: relative; width: 100%; }
+}
+
+/* Desktop */
+@media only screen and (min-width: 601px) {
+    .section { left: 25%; position: relative; width: 50%; }
+}
