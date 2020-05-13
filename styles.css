@@ -1,24 +1,59 @@
-body { background-color: #e5e4e2; font-family: monospace; }
-li { list-style-type: square; }
+body {
+    background-color: #e5e4e2; 
+    font-family: monospace; 
+}
+li { 
+    list-style-type: square;
+}
 
-#name { color: #035096; }
+#name { 
+    color: black; 
+}
 
-.header { border-width: medium; border-style: ridge; text-align: center; }
-#about-header { color: #000080; }
-#funstuff-header { color: #551a8b; }
-#interests-header { color: #006400; }
-#projects-header { color: #c21e56; }
-#ta-header { color: #daa520; }
+.black { 
+    color: black; 
+}
+.bold { 
+    font-weight: bold; 
+}
+.bordered { 
+    border-width: medium; 
+    border-style: ridge; 
+}
+.centered { 
+    text-align: center; 
+}
+.large { 
+    font-size: large; 
+}
+.left { 
+    text-align: left; 
+}
+.section { 
+    text-align: center; 
+}
+.xx-large {
+    font-size: xx-large;
+}
 
-.section p, .section ul { margin: 2%; }
-.centered-content { text-align: center; }
+.section p, .section ul { 
+    margin: 2%; 
+}
 
 /* Mobile devices */
 @media only screen and (max-width: 600px) {
-    .section { left: 0%; position: relative; width: 100%; }
+    .section { 
+        left: 0%; 
+        position: relative; 
+        width: 100%; 
+    }
 }
 
 /* Desktop */
 @media only screen and (min-width: 601px) {
-    .section { left: 25%; position: relative; width: 50%; }
+    .section { 
+        left: 25%; 
+        position: relative; 
+        width: 50%; 
+    }
 }

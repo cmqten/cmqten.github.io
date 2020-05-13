@@ -1,99 +1,96 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
-        <title>Carl's Homepage</title>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>Carl's Homepage</title>
+</head>
 
-    <body>
-        <div class="section centered-content">
-            <h1 id="name">Carl Marquez</h1>
-            <a href="https://github.com/cmqten">Github</a>
-            &nbsp;
-            <a href="https://www.linkedin.com/in/carlmarquez/">LinkedIn</a>
-        </div>
+<body class="bold" style="background-image: url(./gifs/water.gif);"> 
+    <div class="section">
+        <img src="./gifs/welcome.gif">
+        <h1 id="name"><img src="./gifs/dance.gif"> Carl's <img src="./gifs/dance.gif"></h1>
+        <marquee scroll="left" behavior="alternate" class="xx-large"><img src="./gifs/star.gif"> Homepage <img src="./gifs/star.gif"></marquee>
+        <br/><br/>
+        <img src="./gifs/computer.gif" width="20px"> <a href="https://github.com/cmqten">Github</a>
+        &nbsp;
+        <img src="./gifs/atwork.gif" width="20px"> <a href="https://www.linkedin.com/in/carlmarquez/">LinkedIn</a>    
+    </div>
 
-        <div class="section">
-            <h2 id="about-header" class="header">About Me</h2>
-            <p>
-                I am currently a 4th year Computer Science student at the 
-                University of Toronto, Mississauga campus.
+    <br/>
+
+    <div class="section bordered" style="color: darkblue; background-color: cyan;">
+        <div class="black">
+            <h2 id="about-header">About me</h2>
+            <p class="centered large">
+                I take naps a lot. I learn and do things I find interesting. I also do silicon 
+                design engineering on the side. Sometimes, I do all three at once.
             </p>
         </div>
+    </div>
 
-        <div class="section">
-            <h2 id="interests-header" class="header">Hobbies and Interests</h2>
-            <ul>
-                <li>Activities : Biking, Swimming</li>
+    <br/>
+
+    <div class="section bordered" style="color: green; background-color: lightgreen;">
+        <div class="black">
+            <h2 id="interests-header">What do I find interesting?</h2>
+            <ul class="left large">
+                <li>Alphabetically sorting lists.</li>
+                <li>Biking. Sometimes, for 6 hours while carrying groceries across cities.</li>
                 <li>
-                    Food : Burrito, Fried Chicken, Korean BBQ, Samosa, Sushi
+                    <a href="https://youtu.be/bbUehF1HULU">J-rock</a>, 
+                    <a href="https://youtu.be/48OAPYnpiL8">more J-rock</a>,
+                    and 
+                    <a href="https://youtu.be/QN3kL1DMyBs">video game soundtracks</a>.
+                </li>
+                <li>Swimming.</li>
+                <li>Video games where I can sabotage my friends instead of trying to win.</li>
+            </ul>
+        </div>
+    </div>
+
+    <br/>
+
+    <div class="section bordered" style="color: purple; background-color: violet;">
+        <div class="black">
+            <h2 id="funstuff-header">What you might find interesting</h2>
+            <ul class="left large">
+                <li>
+                    <img src="./gifs/new.gif">
+                    I create mods for Kingdoms and Castles on the
+                    <a href="https://steamcommunity.com/id/cmjten10/myworkshopfiles/">Steam Workshop</a>. 
+                    Source code in my Github.
                 </li>
                 <li>
-                    Music :
-                    <a href="https://youtu.be/bbUehF1HULU">J-pop</a>, 
-                    <a href="https://youtu.be/48OAPYnpiL8">more J-pop</a>,
-                    Classic Rock
-                </li>
-                <li>
-                    Video Games : Dungeon Warfare, GTA San Andreas, 
-                    Kingdoms and Castles, Pummel Party, The Sims 3
+                    I once created a script to automate my resume and cover letter. I don't have the 
+                    source anymore, and would have to find or recreate it. It got me a job though, 
+                    which eventually led to my current one.
                 </li>
             </ul>
         </div>
+    </div>
 
-        <div class="section">
-            <h2 id="projects-header" class="header">Projects</h2>
-            <ul>
-                <li>
-                    <a href="https://github.com/cmqten/crp16">CRP16</a> :
-                    A 16-bit RISC processor implemented on an FPGA using
-                    Verilog. Includes an assembler written in Python 3.6.
-                </li>
+    <br/>
 
-                <li>
-                    <a href="https://github.com/cmqten/electromagnet-crane-toy">
-                        Electromagnet Crane Toy
-                    </a> :
-                    A small electromagnet crane created with an Arduino Uno.
-                    Uses a PS3 controller for control.
-                </li>
-
-                <li>
-                    <a href="https://github.com/cmqten/coolpenguin">
-                        Penguin Plains
-                    </a> :
-                    A game that involves shooting penguins (in a friendly way)
-                    with fish or ice cream. Written in C++.
-                </li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2 id="ta-header" class="header">Teaching Assistant Work</h2>
-            <p>
-                The following are classes for which I have worked or currently 
-                working as a teaching assistant.
+    <div class="section bordered" style="color: orangered; background-color: lightsalmon;">
+        <div class="black">
+            <h2 id="side-header">The things I do on the side</h2>
+            <p class="centered large">
+                See my LinkedIn profile.
             </p>
-
-            <ul>
-                <li>CSC148 - Introduction to Computer Science, UTM Winter 2020</li>
-                <li>CSC258 - Computer Organization, UTM Winter 2020</li>
-                <li>CSC367 - Parallel Programming, UTM Fall 2019</li>
-                <li>CSC258 - Computer Organization, UTM Winter 2018</li>
-                <li>CSC108 - Introduction to Computer Programming, UTM Fall 2017</li>
-            </ul>
         </div>
+    </div>
 
-        <!--
-        <div class="section">
-            <h2 id="funstuff-header" class="header">Fun Stuff</h2>
-        </div>
-        -->
-
-        <div class="section centered-content">
-            <br/><br/>Last updated : 2020-02-19
-        </div>
-    </body>
+    <div class="centered black">
+        <br/><br/>
+        <img src="./gifs/hammercomputer.gif">
+        <br/><br/>
+        Visitor counter: 
+        <br/>
+        <img src="./gifs/errorcounter.gif">
+        <br/><br/>
+        Last updated : 2020-05-12
+    </div>
+</body>
 </html>
